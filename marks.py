@@ -10,5 +10,5 @@ def cost(item):
 
 
 
-x=  cost("computer")
-print(x)
+y=  cost("computer")
+print(y)

@@ -14,7 +14,9 @@ assert btcTocad(1) == 45000
 (2 points) 
 """
 
-def btcTocad():
+def btcTocad(bitcoin):
+    
+    
     pass
 
 
@@ -24,7 +26,10 @@ if it is imported by another program.
 If this py file is imported by another program, then the commands below
 are not executed.
 """
+
 if __name__ == "__main__":
     assert btcTocad(1) == 45000
     assert btcTocad(2.5) == 112500
     assert btcTocad('one') == 'error'
+
+

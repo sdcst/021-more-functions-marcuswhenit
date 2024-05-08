@@ -11,10 +11,24 @@ return: float the number of degrees of the other unit. Round answers to 2 decima
 Sample assertions:
 assert convertTemp(10,'C') == 50
 assert converTemp(32,'F') == 0
+
+c to f:   (c*1.8)+32 = f
+f to c:   (f-32)/1.8 = c
+
 """
 
-def convertTemp():
-    return
+def convertTemp(d,t):
+    if t == "F":
+        f=(d*1.8)+32
+        return f
+
+    else:
+        c=(d-32)/1.8
+        return c
+
+  
+
+    
 
 def tests():
     assert convertTemp(10,'C') == 50.00
